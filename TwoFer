@@ -1,0 +1,9 @@
+def two_fer(string):
+    person="you"
+    if(string!='null'):
+    	person=string
+    print ('One for %s, one for me.'%person)
+
+if __name__ == '__main__':
+	name=raw_input()
+	two_fer(name)
